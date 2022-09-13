@@ -5,8 +5,8 @@
 <H3>Student Id: {{student_info.id}}</H3>
 <H3>Student Name: {{student_info.first_name}}{{student_info.last_name}}</H3>
 <H3>Email:        {{student_info.email}}</H3>
-<H3>Phone:        {{student_info.phone}}{{student_info.last_name}}</H3>
-<H3>Dept:         {{student_info.dept}}{{student_info.last_name}}</H3>
+<H3>Phone:        {{student_info.phone}}</H3>
+<H3>Dept:         {{student_info.dept}}</H3>
 
 <a href="{% url 'crud_app:student_update' student_id=student_info.id %}" class="btn btn-primary">Update</a>
 <a href="{% url 'crud_app:student_delete' student_id=student_info.id %}" class="btn btn-primary">Delete</a>
